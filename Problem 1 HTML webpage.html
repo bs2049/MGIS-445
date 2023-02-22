@@ -1,139 +1,130 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/styles.css"/>
-    <title> </title>
-  </head>
-<div>
-<label for="mens-items">Men:</label>
-<select name="men" id="mens-items"></select>
-<option value="footwear">Footwear</option>
-<option value="apparel">Apparel</option>
-<option value="accessories">Accessories</option>
-<option value="bigandtall">Big & Tall</option>
-<option value="newarrivals">New Arrivals</option>
-<option value="Sale">Sale</option>
-</div>
 
-<div>
-<label for="women's-items">Women:</label>
-<select name="men" id="mens-items"></select>
-<option value="footwear">Footwear</option>
-<option value="apparel">Apparel</option>
-<option value="accessories">Accessories</option>
-<option value="plussizes">Plus Sizes</option>
-<option value="newarrivals">New Arrivals</option>
-<option value="Sale">Sale</option>
+<div id="header">
+  <link rel="stylesheet" href="css/styles.css"/>
+<title>Dick's Sporting Goods</title>
+  <h1 ><img src="dickssportinggoods.png"/></h1>
 </div>
+  <label for="mens-items">Men:</label>
+  <select name="men" id="mens-items">
+    <option value="footwear">Footwear</option>
+    <option value="apparel">Apparel</option>
+    <option value="acc">Accesories</option>
+    <option value="bigandtall">Big & Tall</option>
 
-<div>
+  </select>
+
+  <label for="women's-items">Women:</label>
+  <select name="women" id="womens-items">
+    <option value="womensapp">Apparel</option>
+    <option value="footwear">Footwear</option>
+    <option value="plus">Plus Size</option>
+    <option value="acc">Accessories</option>
+
+
+  </select>
+
   <label for="kids-items">Kids</label>
-<select name="kids" id="kids-items"></select>
-<option value="kidsfootwear">Kid's Footwear</option>
-<option value="girlsapparel">Girls's Apparel</option>
-<option value="boysapparel">Boy's Apparel</option>
-<option value="kidsaccessories">Kids' Accessories</option>
-<option value="kidstoysandgames">Kids' Toys & Games</option>
-<option value="newarrivals">New Arrivals</option>
-<option value="Sale">Sale</option>
+  <select name="kids" id="kids-items">
+  <option value="boysapp">Boy's Apparel</option>
+  <option value="girlsapp">Girl's Apparel</option>
+  <option value="Kidsfoot">Kid's Footwear</option>
+  <option value="kidsacc">Kid's Accessories</option>
+
+  </select>
+
+
+
+  <label for="exercise-items">Exercise & Wellness</label>
+  <select name="exerciseandwellness" id="exerciseandwellness">
+    <option value="cardio">Cardio Machines & Equipment</option>
+    <option value="weighttraining">Weight Training</option>
+    <option value="homegym">Home Gym</option>
+    <option value="recovery">Recovery</option>
+
+  </select>
+
+  <label for="outside-items">Outside</label>
+  <select name="outside" id="outside">
+    <option value="Hunting">Hunting</option>
+    <option value="snowsport">Snow Sports</option>
+    <option value="Camping">Camping & Hiking</option>
+    <option value="bikes">Bikes & Cycling</option>
+    <option value="fishing">Fishing</option>
+    <option value="outdoorliving">Outdoor Living & Patio</option>
+
+  </select>
 </div>
 
-<div>
-  <select name="exerciseandwellness" id="exerciseandwellness"></select>
-  <option value="cardio">Cardio Machines & Equipment</option>
-  <option value="weight">Weight Training</option>
-  <option value="homegym">Home Gym Equipment</option>
-  <option value="fitnessaccessories">Fitness Accessories</option>
-  <option value="conditioning">Conditioning & Training</option>
-  <option value="recovery">Recovery</option>
-  <option value="health">Health & Wellness</option>
-  </div>
-
-  <div>
-    <select name="outside" id="outside"></select>
-    <option value="snowsports">Snow Sports</option>
-    <option value="camping">Camping & Hiking</option>
-    <option value="bikes">Bikes & Cycling</option>
-    <option value="outdoorpatio">Outdoor Living & Patio</option>
-    <option value="hunting">Hunting</option>
-    <option value="fishing">Fushing</option>
-    </div>
 
  <!-- Buttons with pictures will allow user to access product lists -->
-<div id="men">
-  <button type="button">
-  <img src="men.avif" alt= "Men">
-</button>
-</div>
+<div id="content">
 
-<div id="women">
- 
-  <button type="button"> 
-     <img src="women.avif" alt="Women">
+  <a href="https://www.dickssportinggoods.com/f/shop-all-mens" target ="men"> <button class="button"><img src="men.avif" height=75 width= 75 alt= "Men"></a>
+
   </button>
 
-</div>
-
-<div id="sports">
-  
-  <button type="button"> <img src="sports.avif" alt="Sports">
-   </button>
-</div>
-
-<div id="kids">
-  <button type="button">  
-      <img src="kids" alt="Kids">
+ <a href="https://www.dickssportinggoods.com/f/shop-all-womens" target="women"> <button class="button"> <img src="women.avif" height=75 width= 75 alt="Women"></a>
   </button>
-</div>
 
-<div id="golf">
-  
-  <button type="button"><img src="golf.webp" alt="Golf"> 
+ <a href="dickssportinggoods.com/c/shop-by-sport" target="sports"> <button class="button"> <img src="sports.avif" height=75 width= 75 alt="Sports"></a>
    </button>
-</div>
 
-<div id="outdoor">
-  <button type="button"> <img src="outdoor.avif" alt="Outdoor">
+ <a href="https://www.dickssportinggoods.com/f/shop-all-kids" target="kids"> <button class="button">  <img src="kids" height=75 width= 75 alt="Kids"> </a>
+
+  </button>
+
+  <a href="dickssportinggoods.com/c/golf-equipment" target="golf"><button class="button"><img src="golf.webp" height=75 width= 75 alt="Golf"> </a>
+  
+   </button>
+
+<a href="dickssportinggoods.com/c/outdoor-908551--1" target="outdoor"><button class="button"> <img src="outdoor.avif" height=75 width= 75 alt="Outdoor"></a>
    </button>
  
 </button>
-</div>
 
-<div id="sale">
-  <button type="button"><img src="sale.avif" alt="Sale"> 
+  <a href="dickssportinggoods.com/f/sale" target="sale"> <button class="button"><img src="sale.avif" height=75 width= 75 alt="Sale"> </a>
+  
   </button>
+
+
+</div>   
+
+<div id="footer"> 
+  <label> 
+   <input type="radio" id="r1">
+   <img src="jogger.webp">
+</label>
+
+<label>
+   <input type="radio" id="r2">
+   <img src="nikehoodie.webp">
+</label>
+
+<label>
+   <input type="radio" id="r3">
+   <img src="Nike Shoe.webp" width="150" height="100">
+</label>
+
+<a href="page2.html" target="check out"><button class ="button" type="button" onclick = "checkButton()"> Check Out</a></button> 
+
+
+<h3 id="disp" style= "color:green"> </h3>  
+<h4 id="error" style= "color:red"> </h4>
+<script>
+function checkButton(){
+  var getSelectedValue = document.querySelector(`input[name="radio"]:checked`);
   
+  if(getSelectedValue != null){
+    document.getElementbyId("disp").innerHTML = getSelectedValue.value + "is the item you selected"
+
+  }
+  else{
+    document.getElementById("error").innerHTML = "You have not selected an Item";
+  }
+}
+  </script>
 </div>
 
-
-
-
- <style>
-
- </style>
-
-  
-  
-  
-  <div>  
-<form>
-    <!-- <p> Form to gather info from the user, store it, and send it for processing for a database</p>
-    <p> You can use this information to send email confirmation etc...</p> -->
-<label for="name">Name:</label> 
-<input id="name" type="name" />  
-  </div> 
-  <div>
-<label1 for="email">EMAIL:</label1>
-<input id="email" type="email" />
-</div>
-<div>
-<label2 for="phone">Phone:</label2>
-<input id="phone" type="phone" />
-</div>
-<div>
-  <label3 for="Address">Address:</label3>
-  <input id="Adress" type="Adress" />
-</div>
-</form> 
-  
 </html>
